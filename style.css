@@ -1,0 +1,148 @@
+body {
+    margin: 50px;
+    margin-top: 10px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    box-shadow: 0px 8px 16px rgb(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+h1 span {
+    color: #e74c3c;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+nav .lien {
+    display: flex;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav .lien li {
+    margin: 10px;
+    list-style-type: none ;
+}
+
+nav .lien li a {
+    text-decoration: none;
+}
+
+li {
+    position: relative;
+}
+
+a {
+    display: block;
+}
+
+li > ul {
+    position: absolute;
+    display: none;
+    top: 20px;
+    left: 0;
+    width: 200px;
+    padding: 10px;
+}
+
+li:hover > ul {
+    display: block;
+    background-color: bisque;
+    width: 100%;
+    border-radius: 2px;
+    text-align: left;
+}
+
+li > ul li {
+    padding: 4px 0;
+}
+li > ul li a:hover {
+    background-color: #bdc3c7;
+    color: #2c3e50;
+}
+
+#bienvenu {
+    background-image: url(Image/WhatsApp\ Image\ 2025-02-18\ à\ 10.32.09_9a813af7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60vh;
+}
+
+.crypt {
+    color: white;
+    text-align: center;
+    padding: 50px;
+
+}
+
+#bienvenu h1 {
+    font-size: 2rem;
+}
+
+#article1 {
+    display: flex;
+    padding: 20px;
+}
+
+#section2 {
+    width: 60%;
+    background-color: rgb(221, 244, 237);
+    padding: 10px;
+    margin-left: 3px;
+    z-index:1;
+    font-size: larger;
+}
+
+#section1 h1 {
+    background-image: url(Image/WhatsApp\ Image\ 2025-02-18\ à\ 10.31.25_ddf307a2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 50vh;
+    border: dotted;
+    border-radius: 20px;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 10px;
+}
+
+#images {
+    display: flex;
+    padding: 5px;
+}
+
+img {
+    border-radius: 100px;
+}
+
+#section1 {
+    position: relative;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(48, 241, 160, 0.5);
+    padding: 20px;
+    z-index:2;
+}
+
+.photo {
+    background-color: white;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.photo:hover {
+    box-shadow: 5px 5px 5px rgba(129, 144, 143, 0.5);
+}
